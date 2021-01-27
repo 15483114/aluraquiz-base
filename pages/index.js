@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import db from '../db.json';
 import Widget from '../src/components/Widget'
 import QuizLogo from '../src/components/QuizLogo'
-
+import Head from 'next/head';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
@@ -28,7 +28,12 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return(
     <QuizBackground backgroundImage={db.bg}>
+      <Head> 
+        <title> Quiz das Fontes</title>
+
+      </Head>
     <QuizContainer>
+    <QuizLogo />
     <Widget>
     <Widget.Header>
         <h1>Quiz das fontes</h1>
@@ -38,16 +43,16 @@ export default function Home() {
     </Widget.Content>
     </Widget>
     <Widget>
-    <h1>
-    Quizes da galera
-    </h1>
-        
-      
-    </Widget>
-    </QuizContainer>
+            <Widget.Content>
+              <h1>Quizes da Galera</h1>
+
+              <p>lorem ipsum dolor sit amet...</p>
+            </Widget.Content>
+          </Widget>
+          <Footer />
+        </QuizContainer>
+        <GitHubCorner projectUrl="https://github.com/15483114" />
       </QuizBackground>
     
   );
-
-
 }
