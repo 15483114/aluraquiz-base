@@ -1,28 +1,44 @@
 {
     "bg": "https://www.easepdf.com/images/others/mac-font-book-windows-office-compatible.png",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "Quiz das Fontes",
+    "description": "Já passou horas escolhendo a fonte do seu PowerPoint? Então esse quiz é pra você!",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://s2.glbimg.com/l7UL9fn4qQDcraHt040Dn3d94Ns=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2017/D/g/Ft7kKASByE05YOIWqLwA/clippy.jpg",
+        "title": "Qual a fonte mais odiada da internet?",
+        "description": "",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+        
+          "Verdana",
+          "Comic Sans",
+          "Script",
+          "Georgia"
+        ]
+      },
+      {
+        "image": "https://s2.glbimg.com/l7UL9fn4qQDcraHt040Dn3d94Ns=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2017/D/g/Ft7kKASByE05YOIWqLwA/clippy.jpg",
+        "title": "Qual a fonte mais odiada da internet?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+        
+          "Verdana",
+          "Comic Sans",
+          "Script",
+          "Georgia"
         ]
       },
       {
         "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "title": "Qual dessas fontes é composta de simbolos?",
         "description": "Faz tempo em haha",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Wingdings",
+           "Wululu",
+           "Fakwang",
+           "Qwigley"
         ]
       }
     ],

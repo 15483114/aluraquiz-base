@@ -11,6 +11,8 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
 //   flex: 1;
@@ -51,17 +53,15 @@ export default function Home() {
               // router manda para a próxima página
             }}
             >
-              <input
-                onChange={function(infosDoEvento){
-                  //name = infosDoEvento.target.value;
-                setName(infosDoEvento.target.value);
-                }}
-                placeholder="Qual o seu nome?" />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar 
-                {' '}
-                {name}
-              </button>
+              <Input
+                name= "NomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                placeholder="Qual o seu nome?" 
+                value={name}
+                />
+              <Button type="submit" disabled={name.length === 0}>
+              {`Vamos jogar, ${name} ?`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
